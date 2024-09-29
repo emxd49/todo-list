@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Todo List</h1>
+    </header>
+    <section>
+        <div class="todo-container">
+            <div class="todo-header">
+                <h2>TODO</h2>
+            </div>
+            <div class="input-field">
+                <input type="text" id="input" placeholder="Add Task" autocomplete="off">
+                <button class="addButton" onclick="addTask()">+</button>
+            </div>
+            <div class="items">
+                <ul id="list"></ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
