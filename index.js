@@ -25,7 +25,7 @@ function checkTask(ev) {
 
 function editTask(ev) {
     let editText = prompt("Edit Task:")
-    if (editText == null || editText == "") {
+    if (editText == "") {
         alert("Empty input!")
         return
     }
